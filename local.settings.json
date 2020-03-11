@@ -7,7 +7,7 @@
   "IoTHubConnection": "<Enter IotHub>"
   },
   "Host": {
-    "LocalHttpPort": 7071,
+    "LocalHttpPort": "<update to your local API port>",
     "CORS": "*"
 }
 }
