@@ -4,7 +4,7 @@
       "type": "eventHubTrigger",
       "name": "IoTHubMessages",
       "direction": "in",
-      "eventHubName": "IoT-MXCHIP-1",
+      "eventHubName": "<Update Me>",
       "connection": "IoTHubConnection",
       "cardinality": "many",
       "consumerGroup": "$Default"
