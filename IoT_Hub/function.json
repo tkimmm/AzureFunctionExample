@@ -1,0 +1,20 @@
+{
+  "bindings": [
+    {
+      "type": "eventHubTrigger",
+      "name": "IoTHubMessages",
+      "direction": "in",
+      "eventHubName": "IoT-MXCHIP-1",
+      "connection": "IoTHubConnection",
+      "cardinality": "many",
+      "consumerGroup": "$Default"
+    },
+    {
+      "type": "signalR",
+      "name": "signalRMessages",
+      "hubName": "default",
+      "connectionStringSetting": "AzureSignalRConnectionString",
+      "direction": "out"
+    }
+  ]
+}
